@@ -21,7 +21,6 @@ exports.fallback = async function (context, event, callback) {
   console.log("from_task: " + from_task);
 
   Say = false;
-  Listen = false;
-  Redirect="task://goodbye";
+  Listen = false;  
   await RB.responseBuilder(Say, Listen, Remember, Collect, Tasks, Redirect, Handoff, callback);
 };
