@@ -36,7 +36,7 @@
                 }
             },
             "voice" : {
-                "say_voice" : "Polly.Matthew"
+                "say_voice" : "Polly.Joanna-Neural"
             },
             "name" : ""
         }
