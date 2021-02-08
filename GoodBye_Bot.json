@@ -36,7 +36,7 @@
                 }
             },
             "voice" : {
-                "say_voice" : "Polly.Matthew"
+                "say_voice" : "Polly.Joanna-Neural"
             },
             "name" : ""
         }
@@ -44,11 +44,11 @@
     "fieldTypes" : [],
     "tasks" : [
         {
-            "uniqueName" : "agent_transfer",
+            "uniqueName" : "goodbye",
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://goodbye-6794-dev.twil.io/index"
+                        "say" : "We will end the call"
                     }
                 ]
             },
@@ -56,35 +56,68 @@
             "samples" : [
                 {
                     "language" : "en-US",
-                    "taggedText" : "agent"
+                    "taggedText" : "bye bye"
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "I want to talk to an agent"
+                    "taggedText" : "I am done"
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "I want to talk to a representative"
+                    "taggedText" : "stop"
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "Please transfer me to an agent"
+                    "taggedText" : "goodnight"
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "please transfer me to a representative"
+                    "taggedText" : "that is all thank you"
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "I want talk to somebody"
+                    "taggedText" : "that would be all"
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "agent transfer"
+                    "taggedText" : "end the call"
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "transfer me to an agent"
+                    "taggedText" : "goodbye"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "see ya"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "good bye"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "bye"
+                }
+            ]
+        },
+        {
+            "uniqueName" : "agent_transfer",
+            "actions" : {
+                "actions" : [
+                    {
+                        "redirect" : "https://goodbye-4678-dev.twil.io/index"
+                    }
+                ]
+            },
+            "fields" : [],
+            "samples" : [
+                {
+                    "language" : "en-US",
+                    "taggedText" : "talk to an agent"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "help"
                 },
                 {
                     "language" : "en-US",
@@ -92,7 +125,35 @@
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "help"
+                    "taggedText" : "transfer me to an agent"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "agent transfer"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I want talk to somebody"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "please transfer me to a representative"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "Please transfer me to an agent"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I want to talk to a representative"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I want to talk to an agent"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "agent"
                 }
             ]
         },
@@ -101,7 +162,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://goodbye-6794-dev.twil.io/index"
+                        "redirect" : "https://goodbye-4678-dev.twil.io/index"
                     }
                 ]
             },
@@ -109,59 +170,7 @@
             "samples" : [
                 {
                     "language" : "en-US",
-                    "taggedText" : "sup"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hi!"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "what can you do"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hi there."
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hey"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "good afternoon"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "what do you do"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "yo"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "whatsup"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "heya"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "what'us up"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "Hello."
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hi there"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hello"
+                    "taggedText" : "good morning"
                 },
                 {
                     "language" : "en-US",
@@ -169,21 +178,61 @@
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "good morning"
+                    "taggedText" : "hello"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "hi there"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "Hello."
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "what'us up"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "heya"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "whatsup"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "yo"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "what do you do"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "good afternoon"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "hey"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "hi there."
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "what can you do"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "hi!"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "sup"
                 }
             ]
-        },
-        {
-            "uniqueName" : "fallback",
-            "actions" : {
-                "actions" : [
-                    {
-                        "redirect" : "https://goodbye-6794-dev.twil.io/index"
-                    }
-                ]
-            },
-            "fields" : [],
-            "samples" : []
         },
         {
             "uniqueName" : "collect_fallback",
@@ -199,88 +248,19 @@
             "samples" : []
         },
         {
-            "uniqueName" : "goodbye",
+            "uniqueName" : "fallback",
             "actions" : {
                 "actions" : [
                     {
-                        "say" : "Thank you! Please reach out again if you need anything. Goodbye."
+                        "redirect" : "https://goodbye-4678-dev.twil.io/index"
                     }
                 ]
             },
             "fields" : [],
-            "samples" : [
-                {
-                    "language" : "en-US",
-                    "taggedText" : "bye bye"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "good bye"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "stop talking"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "stop"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "see ya"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "that's all"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "goodbye"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "cancel"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "no thanks"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "that would be all thanks"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "goodnight"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "that would be all"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "no"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "that is all thank you"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "no thanks"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "go away"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "that's all for today"
-                }
-            ]
+            "samples" : []
         }
     ],
     "modelBuild" : {
-        "uniqueName" : "GoodBye_Bot_26-1-2021_11.27.43pm"
+        "uniqueName" : "GoodBye_Bot_5-2-2021_1.47.28pm"
     }
 }

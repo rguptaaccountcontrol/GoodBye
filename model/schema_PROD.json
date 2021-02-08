@@ -44,6 +44,63 @@
     "fieldTypes" : [],
     "tasks" : [
         {
+            "uniqueName" : "goodbye",
+            "actions" : {
+                "actions" : [
+                    {
+                        "say" : "We will end the call"
+                    }
+                ]
+            },
+            "fields" : [],
+            "samples" : [
+                {
+                    "language" : "en-US",
+                    "taggedText" : "bye bye"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I am done"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "stop"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "goodnight"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "that is all thank you"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "that would be all"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "end the call"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "goodbye"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "see ya"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "good bye"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "bye"
+                }
+            ]
+        },
+        {
             "uniqueName" : "agent_transfer",
             "actions" : {
                 "actions" : [
@@ -56,35 +113,11 @@
             "samples" : [
                 {
                     "language" : "en-US",
-                    "taggedText" : "agent"
+                    "taggedText" : "talk to an agent"
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "I want to talk to an agent"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "I want to talk to a representative"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "Please transfer me to an agent"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "please transfer me to a representative"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "I want talk to somebody"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "agent transfer"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "transfer me to an agent"
+                    "taggedText" : "help"
                 },
                 {
                     "language" : "en-US",
@@ -92,7 +125,35 @@
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "help"
+                    "taggedText" : "transfer me to an agent"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "agent transfer"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I want talk to somebody"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "please transfer me to a representative"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "Please transfer me to an agent"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I want to talk to a representative"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I want to talk to an agent"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "agent"
                 }
             ]
         },
@@ -109,59 +170,7 @@
             "samples" : [
                 {
                     "language" : "en-US",
-                    "taggedText" : "sup"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hi!"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "what can you do"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hi there."
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hey"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "good afternoon"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "what do you do"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "yo"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "whatsup"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "heya"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "what'us up"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "Hello."
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hi there"
-                },
-                {
-                    "language" : "en-US",
-                    "taggedText" : "hello"
+                    "taggedText" : "good morning"
                 },
                 {
                     "language" : "en-US",
@@ -169,21 +178,61 @@
                 },
                 {
                     "language" : "en-US",
-                    "taggedText" : "good morning"
+                    "taggedText" : "hello"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "hi there"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "Hello."
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "what'us up"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "heya"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "whatsup"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "yo"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "what do you do"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "good afternoon"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "hey"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "hi there."
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "what can you do"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "hi!"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "sup"
                 }
             ]
-        },
-        {
-            "uniqueName" : "fallback",
-            "actions" : {
-                "actions" : [
-                    {
-                        "redirect" : "https://goodbye-6198-dev.twil.io/index"
-                    }
-                ]
-            },
-            "fields" : [],
-            "samples" : []
         },
         {
             "uniqueName" : "collect_fallback",
@@ -197,9 +246,21 @@
             },
             "fields" : [],
             "samples" : []
+        },
+        {
+            "uniqueName" : "fallback",
+            "actions" : {
+                "actions" : [
+                    {
+                        "redirect" : "https://goodbye-6198-dev.twil.io/index"
+                    }
+                ]
+            },
+            "fields" : [],
+            "samples" : []
         }
     ],
     "modelBuild" : {
-        "uniqueName" : "GoodBye_Bot_26-1-2021_11.27.43pm"
+        "uniqueName" : "GoodBye_Bot_5-2-2021_1.47.28pm"
     }
 }
